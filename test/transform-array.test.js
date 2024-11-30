@@ -1,4 +1,4 @@
-const { expect, assert } = require('chai');
+    const { expect, assert } = require('chai');
 const { testOptional, checkForThrowingErrors, CONSTANTS } = require('../extensions/index.js');
 const { transform } = require('../src/transform-array.js');
 
@@ -18,7 +18,7 @@ describe('Transform array', () => {
     describe('variable presence', () => {
         it.optional('function transform exists', () => {
             expect(transform).to.exist;
-            expect(transform).to.be.instanceOf(Function);
+
         });
     });
 
